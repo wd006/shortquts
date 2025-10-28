@@ -1,0 +1,127 @@
+[
+  {
+    "id": "sh_001",
+    "author_id": "usr_001",
+    "creation_date": "2025-10-20T09:00:00Z",
+    "category_id": "cat_prod",
+    "l10n": {
+      "en": {
+        "title": "Media Downloader Pro",
+        "subtitle": "Download videos and images from 100+ websites",
+        "description": "A powerful shortcut to download media from popular platforms like YouTube, Instagram, and Twitter. Simply share the URL to the shortcut.",
+        "setup_steps": [
+          "This shortcut requires the free 'a-Shell' app to be installed.",
+          "On first run, it will automatically install the necessary 'yt-dlp' components. Please wait for it to finish."
+        ]
+      },
+      "tr": {
+        "title": "Medya İndirici Pro",
+        "subtitle": "100+ web sitesinden video ve resim indirin",
+        "description": "YouTube, Instagram ve Twitter gibi popüler platformlardan medya indirmek için güçlü bir kestirme. URL'yi kestirmeyle paylaşmanız yeterlidir.",
+        "setup_steps": [
+          "Bu kestirme, ücretsiz 'a-Shell' uygulamasının yüklenmesini gerektirir.",
+          "İlk çalıştırmada, gerekli 'yt-dlp' bileşenlerini otomatik olarak kuracaktır. Lütfen tamamlanmasını bekleyin."
+        ]
+      }
+    },
+    "icon": { "name": "arrow.down.circle.fill", "color": "indigo" },
+    "tags": {
+      "en": ["downloader", "video", "youtube", "instagram", "social media"],
+      "tr": ["indirici", "video", "youtube", "instagram", "sosyal medya"]
+    },
+    "attributes": {
+      "complexity": "expert",
+      "input_type": ["share_sheet", "clipboard"],
+      "output_type": ["file", "notification"],
+      "required_permissions": ["files", "notifications"]
+    },
+    "gallery": [],
+    "video_tutorial_url": "https://youtube.com/watch?v=example",
+    "compatibility": { "min_ios_version": "16.0", "dependencies": [{"name": "a-Shell", "url": "https://apps.apple.com/us/app/a-shell/id1473805438"}] },
+    "statistics": { "view_count": 1523, "download_count": 845 },
+    "rating": { "average": 4.8, "count": 120 },
+    "is_featured": true,
+    "is_active": true,
+    "releases": [
+      {
+        "versioning": { "semantic": "2.0.0", "integer": 15 },
+        "release_date": "2025-10-28T14:00:00Z",
+        "l10n": {
+          "en": { "changelog": "- Major Rewrite: Now 2x faster.\n- Added support for Twitter videos.\n- Improved error handling." },
+          "tr": { "changelog": "- Büyük Yeniden Yazım: Artık 2 kat daha hızlı.\n- Twitter videoları için destek eklendi.\n- Hata yönetimi iyileştirildi." }
+        },
+        "downloads": {
+          "icloud_url": "https://www.icloud.com/shortcuts/newestlink_sh001",
+          "file_url": "https://shortquts.com/files/sh_001_v15.shortcut"
+        },
+        "is_stable": true
+      },
+      {
+        "versioning": { "semantic": "1.5.1", "integer": 14 },
+        "release_date": "2025-10-22T18:10:00Z",
+        "l10n": {
+          "en": { "changelog": "- Fixed a bug where Instagram Reels were not downloading in high quality." },
+          "tr": { "changelog": "- Instagram Reels'lerin yüksek kalitede inmemesine neden olan bir hata düzeltildi." }
+        },
+        "downloads": {
+          "icloud_url": "https://www.icloud.com/shortcuts/olderlink_sh001",
+          "file_url": "https://shortquts.com/files/sh_001_v14.shortcut"
+        },
+        "is_stable": true
+      }
+    ]
+  },
+  {
+    "id": "sh_002",
+    "author_id": "usr_001",
+    "creation_date": "2025-10-25T11:20:00Z",
+    "category_id": "cat_tools",
+    "l10n": {
+      "en": {
+        "title": "Wi-Fi QR Code Generator",
+        "subtitle": "Share your Wi-Fi without sharing the password",
+        "description": "Creates a QR code for your current Wi-Fi network. Guests can scan it to connect instantly without needing to type the password.",
+        "setup_steps": []
+      },
+      "tr": {
+        "title": "Wi-Fi QR Kodu Oluşturucu",
+        "subtitle": "Parolanızı paylaşmadan Wi-Fi'nizi paylaşın",
+        "description": "Mevcut Wi-Fi ağınız için bir QR kodu oluşturur. Misafirleriniz parolayı yazmaya gerek kalmadan anında bağlanmak için tarayabilir.",
+        "setup_steps": []
+      }
+    },
+    "icon": { "name": "wifi", "color": "green" },
+    "tags": {
+      "en": ["wifi", "qr code", "network", "utility", "guest"],
+      "tr": ["wifi", "qr kod", "ağ", "araç", "misafir"]
+    },
+    "attributes": {
+      "complexity": "beginner",
+      "input_type": ["none"],
+      "output_type": ["show_result"],
+      "required_permissions": ["wifi"]
+    },
+    "gallery": [],
+    "video_tutorial_url": null,
+    "compatibility": { "min_ios_version": "15.0", "dependencies": [] },
+    "statistics": { "view_count": 3450, "download_count": 2100 },
+    "rating": { "average": 5.0, "count": 250 },
+    "is_featured": false,
+    "is_active": true,
+    "releases": [
+      {
+        "versioning": { "semantic": "1.0.0", "integer": 1 },
+        "release_date": "2025-10-25T11:20:00Z",
+        "l10n": {
+          "en": { "changelog": "Initial release." },
+          "tr": { "changelog": "İlk sürüm." }
+        },
+        "downloads": {
+          "icloud_url": "https://www.icloud.com/shortcuts/link_sh002",
+          "file_url": "https://shortquts.com/files/sh_002_v1.shortcut"
+        },
+        "is_stable": true
+      }
+    ]
+  }
+]
