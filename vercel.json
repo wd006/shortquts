@@ -1,0 +1,20 @@
+{
+	  "rewrites": [
+		      {
+			            "source": "/api/v1/fonts/id/:id",
+				          "destination": "/api/font-handler.php?id=:id"
+					      },
+					          {
+							        "source": "/api/v1/fonts/categories",
+								      "destination": "/api/font-handler.php?categories=true"
+								          },
+									      {
+										            "source": "/api/v1/fonts/categories/:category",
+											          "destination": "/api/font-handler.php?category=:category"
+												      },
+												          {
+														        "source": "/api/v1/fonts",
+															      "destination": "/api/font-handler.php"
+															          }
+																    ]
+}
