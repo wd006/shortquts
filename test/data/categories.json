@@ -1,0 +1,14 @@
+[
+  {
+    "id": "cat_prod",
+    "l10n": { "en": "Productivity", "tr": "Üretkenlik" }
+  },
+  {
+    "id": "cat_tools",
+    "l10n": { "en": "Tools", "tr": "Araçlar" }
+  },
+  {
+    "id": "cat_media",
+    "l10n": { "en": "Photos & Video", "tr": "Fotoğraf & Video" }
+  }
+]

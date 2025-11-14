@@ -1,0 +1,20 @@
+{
+  "id": 1096491815,
+  "slug": null,
+  "title": "Shortquts",
+  "subtitle": null,
+  "category_id": 1,
+  "cover_image": "banner.png",
+  "gallery_images": [
+    "docs/images/gallery-01.jpg",
+    "docs/images/gallery-02.png"
+  ],
+  "url": "https://live-demo-or-pages-url.com",
+  "is_featured": true,
+  "visibility": "public",
+  "status": "in-development",
+  "technologies": [3, 7, 20],
+  "tags": ["data-visualization", "dashboard", "sass"],
+  "start_date": "2025-10-11",
+  "end_date": null
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "sh_001",
+    "slug": "media-downloader-pro",
+    "author_id": "usr_001",
+    "creation_date": "2025-10-20T09:00:00Z",
+    "category_id": "cat_media",
+    "l10n": {
+      "en": { "title": "Media Downloader Pro", "subtitle": "Download from 100+ websites", "description": "A powerful shortcut to download media from popular platforms.", "setup_steps": ["Requires the free 'a-Shell' app.", "On first run, it will install necessary components."] },
+      "tr": { "title": "Medya İndirici Pro", "subtitle": "100+ siteden indirin", "description": "Popüler platformlardan medya indirmek için güçlü bir kestirme.", "setup_steps": ["Ücretsiz 'a-Shell' uygulamasını gerektirir.", "İlk çalıştırmada gerekli bileşenleri kuracaktır."] }
+    },
+    "tags": { "en": ["downloader", "video", "youtube"], "tr": ["indirici", "video", "youtube"] },
+    "attributes": { "complexity": "expert", "input_type": ["share_sheet"], "output_type": ["file"], "required_permissions": ["files"] },
+    "gallery": [], "video_tutorial_url": null, "compatibility": { "min_ios_version": "16.0", "dependencies": [] },
+    "statistics": { "view_count": 1523, "download_count": 845 }, "rating": { "average": 4.8, "count": 120 }, "is_featured": true,
+    "releases": [
+      {
+        "versioning": { "semantic": "2.0.0", "integer": 15 }, "release_date": "2025-10-28T14:00:00Z",
+        "l10n": { "en": { "changelog": "- Major Rewrite: Now 2x faster." }, "tr": { "changelog": "- Büyük Yeniden Yazım: Artık 2 kat daha hızlı." } },
+        "downloads": { "icloud_url": "https://icloud.com/shortcut/unique", "file_url": "/data/path/" }, "is_stable": true
+      },
+      {
+        "versioning": { "semantic": "1.5.1", "integer": 14 }, "release_date": "2025-10-22T18:10:00Z",
+        "l10n": { "en": { "changelog": "- Fixed a bug with Instagram Reels." }, "tr": { "changelog": "- Instagram Reels hatası düzeltildi." } },
+        "downloads": { "icloud_url": "...", "file_url": "..." }, "is_stable": true
+      }
+    ]
+  },
+  {
+    "id": "sh_002",
+    "slug": "wifi-qr-code",
+    "author_id": "usr_001",
+    "creation_date": "2025-10-25T11:20:00Z",
+    "category_id": "cat_tools",
+    "l10n": { "en": { "title": "Wi-Fi QR Code", "subtitle": "Share your Wi-Fi easily" }, "tr": { "title": "Wi-Fi QR Kodu", "subtitle": "Wi-Fi'nizi kolayca paylaşın" } },
+    "tags": { "en": ["wifi", "qr"], "tr": ["wifi", "qr"] },
+    "attributes": { "complexity": "beginner", "input_type": ["none"], "output_type": ["show_result"], "required_permissions": ["wifi"] },
+    "releases": [
+      { "versioning": { "semantic": "1.0.0", "integer": 2 }, "release_date": "2025-10-25T11:20:00Z", "l10n": { "en": { "changelog": "Initial release." }, "tr": { "changelog": "İlk sürüm." } } }
+    ]
+  },
+  {
+    "id": "sh_003",
+    "slug": "ifonts",
+    "author_id": "usr_001",
+    "creation_date": "2025-10-28T18:00:00Z",
+    "category_id": "cat_tools",
+    "l10n": { "en": { "title": "iFonts - Stylish Text", "subtitle": "Convert your text into fancy fonts" }, "tr": { "title": "iFonts - Süslü Metin", "subtitle": "Metninizi havalı fontlara dönüştürün" } },
+    "tags": { "en": ["font", "text", "style"], "tr": ["font", "metin", "stil"] },
+    "attributes": { "complexity": "intermediate", "input_type": ["clipboard", "text"], "output_type": ["clipboard"], "required_permissions": [] },
+    "releases": [
+      { "versioning": { "semantic": "1.1.0", "integer": 5 }, "release_date": "2025-10-28T18:00:00Z", "l10n": { "en": { "changelog": "Added 5 new font styles." }, "tr": { "changelog": "5 yeni font stili eklendi." } } }
+    ]
+  },
+  {
+    "id": "sh_004",
+    "slug": "daily-water-tracker",
+    "author_id": "usr_001",
+    "creation_date": "2025-10-29T10:00:00Z",
+    "category_id": "cat_prod",
+    "l10n": { "en": { "title": "Daily Water Tracker", "subtitle": "Log your daily water intake" }, "tr": { "title": "Günlük Su Takibi", "subtitle": "Günlük su tüketiminizi kaydedin" } },
+    "tags": { "en": ["health", "water"], "tr": ["sağlık", "su"] },
+    "attributes": { "complexity": "beginner", "input_type": ["none"], "output_type": ["notification"], "required_permissions": ["health"] },
+    "releases": [
+      { "versioning": { "semantic": "1.0.0", "integer": 8 }, "release_date": "2025-10-29T10:00:00Z", "l10n": { "en": { "changelog": "Initial release." }, "tr": { "changelog": "İlk sürüm." } } }
+    ]
+  }
+]
